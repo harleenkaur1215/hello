@@ -1,0 +1,12 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: travel-booking-boot
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,env
